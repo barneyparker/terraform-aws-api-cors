@@ -1,6 +1,8 @@
 module "cors_integration" {
   source = "github.com/barneyparker/terraform-aws-api-generic"
 
+  name = "cors"
+
   api_id   = var.api_id
   resource_id   = var.resource_id
   http_method = "OPTIONS"

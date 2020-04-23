@@ -2,11 +2,11 @@
 
 Module to simplify implimentation of CORS responses on API Gateway routes.
 
-# Compatibility
+## Compatibility
 
 This module is HCL2 compatible only.
 
-# Example
+## Example
 
 ```
 resource "aws_api_gateway_rest_api" "api" {
